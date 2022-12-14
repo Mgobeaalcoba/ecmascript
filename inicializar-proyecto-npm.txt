@@ -1,0 +1,80 @@
+// Como inicializar un proyecto desde la consola. Necesitas node y git //
+
+C:\Users\mgobea\Documents\develop\js
+λ mkdir curso-ecmascript
+
+C:\Users\mgobea\Documents\develop\js
+λ node -v
+v18.12.1
+
+C:\Users\mgobea\Documents\develop\js
+λ git -v
+git version 2.37.3.windows.1
+
+C:\Users\mgobea\Documents\develop\js
+λ cd curso-ecmascript\
+
+C:\Users\mgobea\Documents\develop\js\curso-ecmascript
+λ git init
+Initialized empty Git repository in C:/Users/mgobea/Documents/develop/js/curso-ecmascript/.git/
+
+C:\Users\mgobea\Documents\develop\js\curso-ecmascript(master)
+λ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (curso-ecmascript)
+version: (1.0.0)
+description: proyecto de ejercicios con las distintas versiones de JavaScript que fueron desarrolladas por ecmascript
+
+entry point: (index.js)
+test command:
+git repository: git@github.com:Mgobeaalcoba/Ecmascript.git
+keywords: javascript, ecmascript, frontend developer
+author: Mariano Gobea Alcoba <gobeamariano@gmail.com>
+license: (ISC) MIT
+About to write to C:\Users\mgobea\Documents\develop\js\curso-ecmascript\package.json:
+
+{
+  "name": "curso-ecmascript",
+  "version": "1.0.0",
+  "description": "proyecto de ejercicios con las distintas versiones de JavaScript que fueron desarrolladas por ecmascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Mgobeaalcoba/Ecmascript.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "frontend",
+    "developer"
+  ],
+  "author": "Mariano Gobea Alcoba <gobeamariano@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mgobeaalcoba/Ecmascript/issues"
+  },
+  "homepage": "https://github.com/Mgobeaalcoba/Ecmascript#readme"
+}
+
+
+Is this OK? (yes) yes
+npm notice
+npm notice New major version of npm available! 8.19.2 -> 9.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.2.0
+npm notice Run npm install -g npm@9.2.0 to update!
+npm notice
+
+C:\Users\mgobea\Documents\develop\js\curso-ecmascript(master) (curso-ecmascript@1.0.0)
+λ code .
