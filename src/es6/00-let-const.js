@@ -14,9 +14,9 @@ console.log(animal); // Arroja error ya que no puedo reasignar constantes.
 
 const fruits = () => {
     if (true) {
-        var fruit1 = "Apple"; // Se ejecuta bien. Function scope 
+        var fruit1 = "Apple"; // Se ejecuta bien. Function scope
         let fruit2 = "Kiwi"; // No existe para fuera del if (del bloque donde son declaradas). Block scope
-        const fruit3 = "Banana"; // Block scope. 
+        const fruit3 = "Banana"; // Block scope.
     }
     console.log(fruit1);
     console.log(fruit2);
@@ -25,4 +25,4 @@ const fruits = () => {
 
 // Ejecuto la función:
 
-fruits(); 
+fruits();

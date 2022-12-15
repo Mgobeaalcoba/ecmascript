@@ -77,3 +77,8 @@ class User5 {
         this.age = n;
     }
 }
+
+const nfernandez = new User5("Nicole", 29);
+console.log(nfernandez.uAge);
+console.log(nfernandez.uAge = 20);
+

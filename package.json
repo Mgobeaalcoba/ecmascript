@@ -18,6 +18,7 @@
   ],
   "author": "Mariano Gobea Alcoba <gobeamariano@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Mgobeaalcoba/Ecmascript/issues"
   },
