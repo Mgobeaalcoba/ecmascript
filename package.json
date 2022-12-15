@@ -1,0 +1,28 @@
+{
+  "name": "curso-ecmascript",
+  "version": "1.0.0",
+  "description": "proyecto de ejercicios con las distintas versiones de JavaScript que fueron desarrolladas por ecmascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Mgobeaalcoba/Ecmascript.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "frontend",
+    "developer"
+  ],
+  "author": "Mariano Gobea Alcoba <gobeamariano@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mgobeaalcoba/Ecmascript/issues"
+  },
+  "homepage": "https://github.com/Mgobeaalcoba/Ecmascript#readme",
+  "devDependencies": {
+    "prettier": "2.8.1"
+  }
+}
