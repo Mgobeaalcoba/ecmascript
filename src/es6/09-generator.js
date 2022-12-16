@@ -1,12 +1,14 @@
 // Generadores: funciones especiales
 
-function* iterate(array) { // Se declara con function*
-    for (let value of array) { // Es fundamental que haya un ciclo en el iterador para variar el resultado devuelto
-        yield value; // Retorna con yield.
-    }
+function* iterate(array) {
+  // Se declara con function*
+  for (let value of array) {
+    // Es fundamental que haya un ciclo en el iterador para variar el resultado devuelto
+    yield value; // Retorna con yield.
+  }
 }
 
-const array = ["Oscar","David","Ana","Ulises","Jeniffer"];
+const array = ["Oscar", "David", "Ana", "Ulises", "Jeniffer"];
 const it = iterate(array);
 
 /*
@@ -22,9 +24,9 @@ console.log(it.next().value); // Devuelve Jeniffer
 console.log(it.next().value); // Devuelve undefined porque se acabo mi array. 
 */
 
-// Otra forma de iterar el generador es: 
-for (let index = 0; index < array.length + 5 ; index++) {
-    console.log(it.next().value);
+// Otra forma de iterar el generador es:
+for (let index = 0; index < array.length + 5; index++) {
+  console.log(it.next().value);
 }
 /* Devuelve: 
 
@@ -40,7 +42,7 @@ undefined
 undefined
 */
 
-// Solución al reto del curso y reto: 
+// Solución al reto del curso y reto:
 /*
 En la guardería de Michis "Michilango", están registrando nuevos michis, pero necesitan una forma de identificarlos.
 
@@ -81,9 +83,9 @@ id.next().value
 */
 
 function* getId() {
-  let catID = 1
+  let catID = 1;
   while (true) {
-    yield catID++
+    yield catID++;
   }
 }
 
@@ -105,13 +107,12 @@ Resultados:
 
 */
 
-// Otra: 
-
+// Otra:
 
 function* getId() {
-    while (true) {
-      yield Math.random().toString(36).substring(5).toUpperCase();
-    }
+  while (true) {
+    yield Math.random().toString(36).substring(5).toUpperCase();
+  }
 }
 
 const id = getId();
@@ -119,7 +120,7 @@ console.log(id.next().value);
 console.log(id.next().value);
 console.log(id.next().value);
 console.log(id.next().value);
-console.log(id.next().value); // Podría repetirlo infinitas veces porque while true se cumple siempre. 
+console.log(id.next().value); // Podría repetirlo infinitas veces porque while true se cumple siempre.
 
 /*Results examples 
 

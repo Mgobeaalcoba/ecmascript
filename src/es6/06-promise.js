@@ -8,7 +8,7 @@ const anotherFunction = () => {
         } else {
             reject('Whooooops!!!');
         }
-    }) 
+    })
 }
 
 anotherFunction()
