@@ -25,5 +25,8 @@
   "homepage": "https://github.com/Mgobeaalcoba/Ecmascript#readme",
   "devDependencies": {
     "prettier": "2.8.1"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
   }
 }
