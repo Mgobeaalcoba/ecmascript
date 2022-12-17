@@ -19,7 +19,7 @@ const promise2 = new Promise((resolve, reject) => resolve("resolve"));
 const promise3 = new Promise((resolve, reject) => resolve("Resolve 2"));
 
 Promise.allSettled([promise1, promise2, promise3])
-    .then(response => console.log(response));
+  .then(response => console.log(response));
 
 // Output: 
 /*
@@ -33,8 +33,8 @@ Promise.allSettled([promise1, promise2, promise3])
 // Ejemplo de .all
 
 Promise.all([promise1, promise2, promise3])
-    .then(respuesta => console.log(respuesta))
-    .catch(error => console.log(error))
+  .then(respuesta => console.log(respuesta))
+  .catch(error => console.log(error))
 
 // Output:
 

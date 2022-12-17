@@ -11,5 +11,5 @@ Para estandarizar el objeto global se creó globalThis, un objeto compatible par
 
 console.log(window); // Funciona en el navegador. 
 console.log(global); // Funciona en node.js (Al correr codigo JS en VSC lo estamos haciendo en node.js)
-console.log(selft) // Funciona en webworker
+console.log(self) // Funciona en webworker
 console.log(globalThis); // Funciona en cualquier lado. Navegador, node.js, webworker, Etc. 
